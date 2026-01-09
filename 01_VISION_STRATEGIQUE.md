@@ -2,40 +2,53 @@
 
 ## 1. Vision Executive
 
-Performance OS est une **plateforme moderne AI-Native** qui ringardise les outils legacy de performance management. Le différenciateur clé : nous sommes partis d'une **architecture propre** où l'IA s'infuse dès la conception, sans casser la logique du produit.
+Performance OS est la **plateforme EPM AI-Native de dernière génération** qui résout le faux dilemme du marché.
 
-**Le principe fondateur** : À chaque fois qu'un utilisateur doit faire du paramétrage (créer une règle, un plan, un contrôle, un calcul), il peut choisir :
-- **Mode No-Code** : Paramétrage manuel (pour ceux qui aiment garder le contrôle total)
-- **Mode IA-Assisted** : Demander à l'IA de générer à sa place, puis valider en un clic
+**Le triptyque différenciateur** :
+1. 💪 **Robustesse Tagetik** : Modules natifs évolutifs (Sales Comm, Conso, Budget) avec fonctionnalités packagées et best practices intégrées
+2. 🎨 **Flexibilité Pigment** : Moteur multidim universel, formules no-code, dimensions à la volée, extensibilité totale
+3. 🤖 **IA au Cœur** : Déterministe (propose, humain valide), low cost (génère configs 1×), souverain (Mistral AI)
 
-**Résultat** : Tous les acteurs (Sales, Managers, Finance, HR) gardent la main, mais vont **10-15x plus vite** sur les tâches à faible valeur ajoutée.
+**Architecture plugin-based** : Modules natifs upgradables automatiquement en 30s (vs 2-3h Tagetik), customisations préservées, marketplace extensible (plugins partenaires + apps sectorielles). Progressive Web App responsive (desktop + mobile).
+
+**Le principe fondateur** : L'IA accélère le paramétrage (génération de règles, plans, mappings en 30s vs 2h manuelles), l'humain valide. Résultat : Time-to-value 10-15× plus rapide.
 
 ### La Stratégie Progressive (Vulki → EPM Universel)
 
 **Insight clé** : Sales Performance Management = EPM simplifié. Même architecture (saisie → règles → calcul → reporting), juste des use cases différents.
 
-**Phase 1 (M0-M12)** : Sales Performance Management (Vulki AI-Native)
-- Ringardiser Vulki (Akeron), Xactly, Spiff avec l'IA native
-- Commissions, incentives, contests, simulations
+**Phase 1 (M0-M12)** : Sales Performance Management (Architecture EPM Universelle)
+- **Architecture** : Moteur de calcul universel + base multidim scalable + Data Prep visuel dès M0
+- **Use Case** : Commissions, incentives, contests, simulations (ringardiser Vulki/Xactly/Spiff)
+- **Différenciateur clé** : Pas une UX rigide "Vulki-like", mais un moteur flexible (type Pigment/Anaplan) avec modules natifs Sales
 - Entry point facile, marché validé, pas de conflit Alteryx
 
 **Phase 2 (M12-M24)** : Extension Financial Planning & Analysis
-- Même moteur, nouveau use case : Budgeting, planning, forecasting finance
+- **Activation de modules natifs** : Budget Planning, Rolling Forecast, Variance Analysis
+- Même moteur, nouvelles UX persona (CFO, Contrôleur, DAF)
 - Cross-sell naturel (clients Sales Perf ont aussi besoin de planning finance)
 
-**Phase 3 (M24-M36)** : EPM Complet (Consolidation + Data Prep)
-- Consolidation statutaire (IFRS, intercos, périmètre)
-- Data Prep visuel (vision Alteryx originale)
-- **Résultat** : L'EPM AI-Native Universel (Sales + Finance)
+**Phase 3 (M24-M36)** : EPM Complet (Consolidation + Marketplace de Modules)
+- **Activation de modules natifs** : Consolidation IFRS, Intercompany Management, Currency Translation
+- **Ouverture SDK (M18-M24)** : Partenaires créent modules sectoriels/compliance (ESG, Pilier 2, Cost Accounting)
+- **Extension capacités transformation** : Workflows de transformation avancés pour use cases Finance complexes (réconciliations, retraitements IFRS)
+- **Résultat** : L'EPM AI-Native Universel (Sales + Finance + Écosystème de modules partenaires)
 
 ### La différence avec les concurrents
 
-Le marché actuel est bloqué par son héritage :  
-- **Vulki/Xactly/Spiff** (Sales Perf) : Paramétrage lourd, litiges clients, pas d'IA native. Impossible d'élargir vers Finance (architecture monolithique).
-- **Pigment/Anaplan** (Finance) : Excellente UX, mais IA "gadget" (chatbot). Impossible d'industrialiser la rigueur (IFRS, audit).
-- **Tagetik/SAP BFC** (EPM Legacy) : Robustesse, mais stack legacy. L'IA ne peut être qu'une couche cosmétique.
+Le marché actuel est bloqué par un **faux dilemme** :
 
-**Performance OS repart de zéro** : architecture AI-Native universelle qui permet de démarrer sur Sales Performance, puis d'élargir naturellement vers Finance Performance.
+| Critère | **Pigment/Anaplan** | **Vulki/Tagetik** | **Performance OS** |
+|---------|---------------------|-------------------|--------------------|
+| **Architecture** | Moteur flexible | Modules rigides | **3 Couches** : Moteur + Modules + UX |
+| **Flexibilité** | ⭐⭐⭐⭐⭐ (Build tout) | ⭐ (Rigide) | ⭐⭐⭐⭐⭐ (Extensible) |
+| **Time-to-Value** | ⭐⭐ (Tout construire) | ⭐⭐⭐⭐ (Modules ready) | ⭐⭐⭐⭐⭐ (Modules + flex) |
+| **Best Practices** | ⭐ (À construire) | ⭐⭐⭐⭐⭐ (Natives) | ⭐⭐⭐⭐⭐ (Modules natifs) |
+| **Extension métier** | ⚠️ Starter kits | ❌ Impossible | ✅ Modules natifs + SDK |
+| **IA** | ⚠️ Chatbot gadget | ❌ Absente | ✅ Intégrée au moteur |
+| **Data Prep** | ❌ Absent | ❌ Absent | ✅ Workflows visuels |
+
+**Performance OS repart de zéro** : architecture AI-Native universelle en 3 couches (Moteur flexible + Modules natifs + UX Persona) qui permet de démarrer sur Sales Performance avec modules natifs, puis d'élargir naturellement vers Finance et Consolidation sans migration.
 
 ### Les 3 Promesses de Valeur (Phase 1 : Sales Performance)
 
@@ -115,53 +128,20 @@ Performance OS intègre un Copilote IA spécialisé pour chaque rôle stratégiq
 - **Validation humaine** : Aucune écriture ou correction n'est appliquée automatiquement sans validation explicite de l'utilisateur, qui peut modifier, rejeter ou valider chaque proposition.
 - **Souveraineté** : Choix du modèle LLM par le client (Mistral AI, OpenAI souverain, etc.) selon ses besoins de conformité. Ce choix est unique pour l'instance et fixé lors de l'implémentation, comme le choix d'un hyperscaler.
 
-#### A.5. Protection Contre les Hallucinations (La Question Critique)
+#### A.5. Architecture Zero-Trust pour l'IA
 
-**L'objection qu'on vous opposera** : *"L'IA hallucine, comment je peux lui confier ma consolidation ?"*
+**L'objection** : *"L'IA hallucine, comment lui confier mes calculs ?"*
 
-**La réponse Performance OS : Architecture Zero-Trust pour l'IA**
+**La réponse** : Performance OS traite l'IA comme un **assistant non fiable par conception**.
 
-Performance OS traite l'IA comme un **assistant non fiable par conception**. Toute proposition de l'IA passe par 5 couches de protection :
+**5 Protections** :
+1. **L'IA Propose, Jamais N'exécute** : Validation humaine obligatoire, rien ne se passe sans clic "Valider"
+2. **Contrôles de Cohérence Automatiques** : Blocage si écart > seuil (ex: budget dépassé de 10%)
+3. **Règles Déterministes Post-Validation** : L'IA aide au **Build**, pas au **Run** (exécution sans IA = pas d'hallucination)
+4. **Versioning & Rollback** : Chaque règle versionnée, rollback instantané < 30s
+5. **Audit Trail Complet** : Qui a validé quoi, quand, pourquoi (exportable pour auditeurs)
 
-##### 1️⃣ **L'IA Propose, Jamais N'exécute**
-- **Principe** : L'IA génère des propositions (plans de commission, règles de calcul, mappings), mais ne peut **jamais** les exécuter automatiquement.
-- **Validation humaine obligatoire** : Chaque proposition doit être explicitement validée par un Sales Ops ou Manager.
-- **Exemple** : L'IA propose "Créer un plan 12% sur ARR, 15% si > quota". L'utilisateur voit la proposition, la valide ou la modifie. Rien ne se passe tant qu'il n'a pas cliqué "Valider".
-
-##### 2️⃣ **Contrôles de Cohérence Automatiques**
-- **Avant validation** : Le système exécute des contrôles de cohérence sur la proposition de l'IA :
-  - *"Ce plan de commission va générer un coût de 450k€ (vs budget 350k€). Confirmer ?"*
-  - *"Cette règle de calcul va créer un écart de 5% avec les commissions N-1 pour le même deal type. Vérifier ?"*
-- **Blocage si incohérence majeure** : Si l'écart est > seuil défini (ex: 10% du budget), la proposition est rejetée automatiquement avec alerte.
-
-##### 3️⃣ **Règles Déterministes Une Fois Validées**
-- **Une fois validée, la règle devient déterministe** : Elle ne dépend plus de l'IA pour s'exécuter.
-- **Exemple** : Une fois que "Plan 12% sur ARR, 15% si > quota" est validé, cette règle s'applique de manière déterministe à chaque calcul de commission **sans repasser par l'IA**.
-- **Résultat** : Pas de risque d'hallucination sur les calculs récurrents (99% des cas). L'IA aide au **Build**, pas au **Run**.
-
-##### 4️⃣ **Versioning et Rollback Immédiat**
-- **Chaque modification est versionnée** : Ajout d'une règle = nouvelle version (v1, v2, v3...).
-- **Rollback instantané** : Si une règle validée produit un résultat inattendu, rollback vers la version précédente en < 30 secondes.
-- **Preview obligatoire** : Avant d'appliquer une règle en production, l'utilisateur voit un **preview** des résultats sur les données réelles.
-
-##### 5️⃣ **Audit Trail Complet (Qui a Validé Quoi)**
-- **Traçabilité** : Chaque validation est enregistrée (Qui ? Quand ? Quelle règle ? Justification ?).
-- **Responsabilité** : L'IA propose, mais la **responsabilité** de la validation appartient à l'humain (avec son nom dans le registre d'audit).
-- **Pour les auditeurs** : Registre exportable montrant que toutes les règles ont été validées par des experts métier.
-
-##### **Comparaison avec les Approches "Gadget"**
-
-| **Critère** | **Chatbot IA (concurrents)** | **Performance OS** |
-|-------------|------------------------------|-------------------|
-| **L'IA peut modifier directement ?** | ⚠️ Parfois (selon config) | ❌ Jamais |
-| **Contrôles de cohérence ?** | ⚠️ Limités | ✅ Systématiques |
-| **Règles déterministes post-validation ?** | ❌ Non, repasse par l'IA | ✅ Oui, moteur de règles |
-| **Versioning & rollback ?** | ⚠️ Partiel | ✅ Complet, instantané |
-| **Audit trail ?** | ⚠️ Basique | ✅ Complet, exportable |
-
-##### **Message Clé pour un DSI/CFO/Auditeur**
-
-> **"Performance OS traite l'IA comme un stagiaire junior : il propose, mais un expert valide. Une fois validée, la règle devient déterministe et ne dépend plus de l'IA. L'IA accélère, mais ne décide jamais seule."**
+**Message clé** : *"L'IA accélère, mais ne décide jamais seule. Une fois validée, la règle devient déterministe."*
 
 ### B. Architecture Performance Lakehouse (Universelle)
 
@@ -212,104 +192,41 @@ Performance OS est conçu pour s'insérer dans le réel des entreprises : **lega
 
 **Élargissement Finance (Phase 2-3)** : Même approche pour connecteurs ERP Finance, imports comptables, exports consolidation.
 
-#### B.4. Data Prep Visuel & Universal Data Ingestion : L'ETL Moderne
+#### B.4. Ingestion Intelligente (IA-Assisted, Progressive)
 
-**Le problème Vulki/Legacy** :
-- Ingestion **rigide** : chaque nouveau format nécessite un consultant pour paramétrer (coût, délai).
-- Transformations **dispersées** : mappings cachés dans le paramétrage, impossible à déboguer.
-- Interface **lourde** : courbe d'apprentissage longue, pas de preview des données.
-- **Résultat** : Les équipes Sales Ops dépendent des IT/consultants pour chaque modification.
+**Le problème Vulki/Legacy** : Ingestion rigide (consultants requis), mappings opaques, pas de preview.
 
-**La vision Performance OS : Data Prep Visuel (type Alteryx) + IA**
+**L'approche Performance OS** :
 
-Performance OS intègre un **workflow visuel de Data Prep** inspiré d'Alteryx, mais optimisé pour le Performance Management et enrichi d'IA :
+**Phase 1 (Sales Performance)** : Connecteurs CRM intelligents (Salesforce, HubSpot) + Mapping IA-Assisted
+- Détection automatique structure, mapping "Product → Commission Plan" en 30s (vs 2h manuelles)
+- Contrôles cohérence automatiques (duplicates, écarts, réconciliation)
 
-##### B.4.1. Le Workflow Visuel de Transformation
+**Phase 2-3 (Finance EPM)** : Workflows de transformation pour use cases avancés (réconciliations multi-sources, retraitements IFRS)
+- Optimisé Performance Management (pas ETL généraliste), IA-Assisted pour génération
 
-**Interface Drag & Drop** avec une bibliothèque d'outils de base :
-- **Input** : Connecteurs (Excel, CSV, ERP, API, PDF via OCR).
-- **Transformation** : Filter, Join, Union, Pivot, Formula, Aggregate, Lookup.
-- **Validation** : Data Quality (complétude, cohérence), Reconciliation (totaux, équilibre débit/crédit).
-- **Output** : Vers Universal Ledger, exports (Excel, BI, API).
+**Principe Build vs Run** : IA aide configuration initiale (1×), puis exécution déterministe sans IA (coûts maîtrisés).
 
-**Exemple de workflow visuel (Sales Performance)** :
-```
-[Import Salesforce Deals] 
-  → [Filter: Status = Closed Won] 
-  → [Mapping: Product → Commission Plan] 
-  → [Contrôle: ARR Total = Source] 
-  → [Calcul: Commission = ARR × Taux] 
-  → [Load: Universal Ledger]
-```
 
-**Avantages vs Vulki/Xactly** :
-- ✅ **Visuel** : Chaque transformation est un bloc, le flux est lisible.
-- ✅ **Documenté** : Le workflow EST la documentation.
-- ✅ **Testable** : Preview des données à chaque étape, debug instantané.
-- ✅ **Versionné** : Git-like versioning des workflows, rollback possible.
-- ✅ **Réutilisable** : Templates de workflows partagés dans la Marketplace.
+#### B.5. Killer Features (Demo-Ready)
 
-##### B.4.2. L'IA comme Accélérateur du Data Prep
+**1. Architecture 3 Couches : Flexibilité + Robustesse**
+- Module natif "Sales Commission" déployé en 2h (best practices intégrées) + règle custom bonus Q4 ajoutée en 30s (formules no-code)
+- Vs Vulki : Extensible. Vs Pigment : Pas besoin de tout construire from scratch.
 
-**Mode 1 : Création assistée de workflows**
-- **Sales Perf** : "Crée-moi un workflow pour importer les deals Salesforce et calculer les commissions"
-- L'IA génère le workflow visuel complet (import → mapping → calcul → contrôles → load)
-- L'utilisateur ajuste si nécessaire, valide, exécute
+**2. IA Intégrée au Moteur (pas chatbot gadget)**
+- "Crée plan commission 10% sur ARR, 15% si > quota" → 30s vs 2h manuelles
+- "Mappe 50 produits Salesforce vers plans" → 5min vs 2 jours
+- L'IA génère configs no-code (Build), exécution déterministe (Run)
 
-**Mode 2 : Suggestion intelligente dans le workflow**
-- À chaque étape, l'IA propose les transformations pertinentes :
-  - *"J'ai détecté 15 produits non mappés à un plan de commission. Voulez-vous que je propose un mapping automatique ?"*
-  - *"Attention : écart de 12 500€ entre ARR Salesforce et commissions calculées. Souhaitez-vous analyser ?"*
+**3. Time-Travel Debugger**
+- D'un chiffre dashboard → document source (PDF, Excel, ERP)
+- Workflow de transformation complet visible, règles versionnées (audit trail)
 
-**Mode 3 : Auto-correction et apprentissage**
-- L'IA détecte les patterns dans vos corrections manuelles et propose d'automatiser :
-  - *"Vous avez corrigé manuellement 5 fois le taux pour le produit X. Voulez-vous créer une règle automatique ?"*
-
-##### B.4.3. Universal Data Ingestion (UDI) : L'IA comme Traducteur Sémantique
-
-**Pour les sources non structurées** (PDF, emails, images), l'UDI intervient en amont du workflow :
-- **Extraction** : OCR + IA pour extraire les données du PDF/image.
-- **Structuration** : L'IA propose une structure tabulaire (colonnes, types).
-- **Validation** : Hash SHA-256 + réconciliation des totaux (blocage si écart > 0,01€).
-- **Injection** : Les données structurées entrent dans le workflow visuel pour transformation.
-
-**Build vs Run** : L'IA aide à la conception du workflow. Une fois validé, le workflow s'exécute de manière **déterministe** sans solliciter l'IA à chaque run (performance et coûts maîtrisés).
-
-#### B.5. Backend AI-Driven : Infrastructure Auto-Optimisante
-
-Le backend est conçu pour tenir la charge sans dépendance DevOps, sous le contrôle du protocole de **Proof of Integrity (PoI)**.
-- **Auto-optimisation** : Indexation et scaling sous limites budgétaires.
-- **Shadow Calculation** : Toute optimisation technique déclenche un calcul fantôme pour vérifier que le résultat financier reste inchangé. En cas d'écart, l'optimisation est rejetée.
-- **Rollback & sandbox** : Versioning intégral et tests de non-régression avant mise en production.
-
-#### B.6. Killer Features (Demo-Ready)
-
-Performance OS se démarque par des fonctionnalités visibles en démo qui créent le "Wow Effect" :
-
-**1. Le Data Prep Visuel IA-Assisted (l'ETL Moderne)**
-Performance OS intègre un workflow visuel de transformation (type Alteryx) où l'IA peut générer les workflows complets :
-- **Démo killer Phase 1** : Montrer un workflow vierge → "Crée-moi un workflow pour importer les deals Salesforce et calculer les commissions" → L'IA génère instantanément le workflow visuel complet (import → filter → mapping → calcul → contrôles → load) → L'utilisateur ajuste si besoin, valide, exécute.
-- **Vs Vulki/Xactly** : Workflow visuel documenté vs paramétrage opaque et dispersé.
-- **Vs Alteryx** : + Stockage (Universal Ledger) + Restitution (Reporting) + IA intégrée.
-
-**2. L'IA à Tous les Étages (pas un chatbot gadget)**
-Partout où il y a du paramétrage, l'utilisateur peut choisir "Demander à l'IA" :
-- **Sales Ops** : "Crée-moi un plan de commission 10% sur ARR, 15% si > quota" → 30 secondes vs 2 heures de paramétrage.
-- **Manager** : "Génère un contest pour le Q4 : top 10 performers gagnent 2k€" → 2 minutes vs 1 heure.
-- **Admin** : "Mappe automatiquement les 50 produits Salesforce vers les plans de commission" → 5 minutes vs 2 jours.
-
-**3. L'Ajout de Dimensions à la Volée (comme Pigment, mais avec rigueur)**
-Ajout instantané d'une nouvelle dimension analytique (ex: "Projet", "Produit") sans casser les règles existantes. L'IA propose automatiquement le remapping des données historiques et l'ajustement des workflows de Data Prep.
-
-**4. Le Time-Travel Debugger**
-En un clic, remonter d'un chiffre dashboard jusqu'au pixel du document source (PDF, Excel, ERP). Voir le workflow de transformation complet (chaque étape du Data Prep visuel) et la règle métier générée par l'IA et validée par l'humain. **The Versioned Rule Ledger** garantit l'immuabilité : registre blockchain-like avec hash SHA-256 et horodatage.
-
-**5. Le Mode "Split-Screen" : No-Code vs IA-Assisted**
-L'utilisateur voit côte à côte :
-- **Gauche** : Interface no-code classique (workflow visuel, formules, mappings)
-- **Droite** : Proposition de l'IA en temps réel (qu'il peut valider/ajuster/rejeter)
-
-**Résultat démo** : Le prospect comprend instantanément qu'il garde 100% du contrôle, mais avec un copilote IA qui génère 80% du workflow et des règles à sa place.
+**4. Mode Split-Screen No-Code + IA**
+- Gauche : Interface no-code classique
+- Droite : Proposition IA temps réel (valider/ajuster/rejeter)
+- Résultat : 100% contrôle, IA génère 80% du travail
 
 ### C. Souveraineté & Confiance
 
@@ -323,10 +240,12 @@ Souveraineté et confiance sont assurées par le **Zero-Knowledge Audit** et la 
 
 ## 3. Positionnement Marché (Stratégie Progressive)
 
-**Phase 1 (M0-M12) : Sales Performance Management**
+**Phase 1 (M0-M12) : Sales Performance Management (Architecture EPM Universelle)**
 - **Cible :** Entreprises 50M€-500M€ CA avec équipes sales 10-100 personnes, souffrant de litiges commissions et manque de transparence.
-- **Différenciateur :** L'agilité et la transparence d'un outil moderne + IA native (vs Vulki/Xactly legacy).
-- **Entry point facile** : Pas de conflit avec Alteryx (marché différent), déploiement rapide (2 semaines).
+- **Architecture dès M0** : Moteur de calcul universel (type Pigment) + base multidim scalable + Data Prep visuel + IA intégrée.
+- **Différenciateur :** On n'est PAS "Vulki avec de l'IA". On est "Pigment + Alteryx + IA appliqué au Sales Perf, puis Finance, puis Conso".
+- **Modules Phase 1** : Sales Commission (natif), Sales Contests, Sales Forecasting — déployables en 2 semaines avec extensibilité totale.
+- **Entry point facile** : Pas de conflit avec Alteryx (marché différent), crédibilité extension Finance (architecture le permet).
 
 **Phase 2 (M12-M24) : Extension Financial Planning & Analysis**
 - **Cible :** Mêmes clients + élargissement vers PME finance-first cherchant à moderniser budgets/forecasts.
@@ -490,13 +409,21 @@ Performance OS ne tombe pas dans le piège des solutions point-to-point (Vulki p
 - **Déclencheur** : Turnover sales lié aux litiges commissions, temps Sales Ops explosé, disputes RH/Finance.
 
 #### 8.1.2. Offre MVP Sales Performance (Scope minimal)
-- **Universal Data Ingestion (UDI)** : Ingestion automatique deals (Salesforce, HubSpot, Excel/CSV) avec mapping IA.
-- **Génération de plans IA-Assisted** : "Créer un plan 12% sur ARR, 15% si > quota" → 30 secondes.
-- **Calcul automatique** : Application des règles, détection anomalies, workflows d'approval.
-- **Transparence totale Sales Rep** : Chat IA ("Combien j'ai touché ?"), simulations what-if, mobile-first.
-- **Dashboards Sales Ops/Manager** : Performance, prévisions, simulations, audit trail complet.
 
-**Promesse** : "Supprimez les litiges commissions, réduisez le temps de paramétrage de 90%, déployez en 2 semaines."
+**Architecture Foundation (dès M0)** :
+- **Moteur de calcul universel** : Formules no-code (type Excel), dimensions à la volée, mappings visuels
+- **Universal Ledger** : Base multidim scalable (DuckDB), schéma évolutif sans migration
+- **Ingestion intelligente** : Connecteurs CRM/ERP + mapping IA-assisted (Phase 1), workflows de transformation avancés (Phase 2-3)
+- **IA intégrée au moteur** : Génération de règles no-code (Build, pas Run)
+
+**Module Natif "Sales Commission" (Phase 1)** :
+- **Connecteur CRM intelligent** : Ingestion auto Salesforce/HubSpot avec mapping IA
+- **Plan Builder visuel** : Création plans de commission en 30 min (vs 2 jours manuels)
+- **Workflows d'approval natifs** : Manager → Finance → Paiement avec escalation auto
+- **Dashboards pré-configurés** : Sales Ops, Manager, Sales Rep (mobile-first)
+- **+ Extensibilité** : Ajout de règles custom via formules no-code (bonus spéciaux, contests)
+
+**Promesse** : "Un moteur EPM moderne (type Pigment/Anaplan) + module Sales Comm natif (type Vulki) + IA intégrée + ingestion intelligente. Déployez en 2 semaines, étendez vers Finance sans migration. Architecture plugin-based : modules évolutifs SANS perte de customisation."
 
 #### 8.1.3. Stratégie d'acquisition (Sales Performance)
 - **Inbound** : Contenu "J'ai supprimé 80% des litiges commissions", calculateur ROI Sales Perf.
@@ -530,24 +457,24 @@ Performance OS ne tombe pas dans le piège des solutions point-to-point (Vulki p
 
 ### Phase 3 : EPM Complet (Consolidation + Data Prep Visuel) (30 → 100 clients) – M24-M36
 
-**Le différenciateur ultime** : Performance OS active des **fonctionnalités consolidation natives + Data Prep visuel Alteryx-like**, pas des starter kits paramétrés.
+**Le différenciateur ultime** : Performance OS active des **fonctionnalités consolidation natives évolutives** (architecture plugin-based), pas des starter kits paramétrés.
 
 #### 8.3.1. Activation des fonctionnalités EPM Complet (natives)
-- **Data Prep visuel Alteryx-like** : Workflows drag & drop pour ingestion/transformation données financières multi-sources.
+- **Workflows de transformation avancés** : Pour use cases Finance complexes (réconciliations multi-sources, retraitements IFRS).
 - **Éliminations intercos automatiques** : Détection asymétries, proposition d'écritures IFRS-compliant.
 - **Gestion de périmètre intelligente** : Acquisitions, cessions, pourcentages d'intégration avec suivi historique.
 - **Conversions de devises multi-taux** : Import automatique des taux BCE/Reuters, application selon normes IFRS.
 - **États financiers consolidés** : Bilan, P&L, annexes IFRS générés automatiquement avec drill-down complet.
 
 **Pourquoi c'est révolutionnaire** :
-- ❌ **Pigment** : Doit créer un starter kit paramétré pour chaque client (maintenance cauchemardesque). Pas de Data Prep visuel.
-- ❌ **Alteryx** : Excellent Data Prep, mais pas de stockage ni reporting ni consolidation.
-- ✅ **Performance OS** : Features natives développées une fois, activées en 1 clic, évolutives avec le produit. **Alteryx + Stockage + Reporting + Consolidation + IA.**
+- ❌ **Pigment** : Doit créer un starter kit paramétré pour chaque client (maintenance cauchemardesque). Pas d'évolution automatique.
+- ❌ **Tagetik** : Features natives mais rigides, impossible de customiser profondément, architecture legacy.
+- ✅ **Performance OS** : Features natives développées une fois, activées en 1 clic, évolutives automatiquement (plugin-based), customisables sans perte lors des upgrades.
 
-#### 8.3.2. Compétition frontale avec Tagetik/Alteryx
-- **Positionnement** : "Tagetik moderne : consolidation native + Data Prep visuel + IA intégrée + time-to-value 6 semaines".
-- **Cible** : Groupes 100M€-1Md€ CA lassés de la lourdeur Tagetik (projets 12-18 mois) ou cherchant à remplacer "Alteryx + outil Conso séparés".
-- **Pricing** : 8-25k€/mois selon complexité, compétitif vs Tagetik (150-250k€/an) ou Alteryx+Conso (200k€/an).
+#### 8.3.2. Compétition frontale avec Tagetik Legacy
+- **Positionnement** : "Tagetik moderne : consolidation native évolutive (plugin-based) + flexibilité Pigment + IA intégrée + time-to-value 6 semaines".
+- **Cible** : Groupes 100M€-1Md€ CA lassés de la lourdeur Tagetik (projets 12-18 mois, rigidité) ou frustrés par Pigment (starter kits non-évolutifs).
+- **Pricing** : 8-25k€/mois selon complexité, compétitif vs Tagetik (150-250k€/an).
 
 **KPI Phase 3** : 100 clients (20 Sales only, 30 Sales+Finance, 50 EPM Complet), ARR 5-10M€ (M24-M36).
 
@@ -567,83 +494,44 @@ Performance OS ne tombe pas dans le piège des solutions point-to-point (Vulki p
 
 **KPI Phase 4** : 200+ clients, ARR 15-25M€, leader Performance Management AI-Native Europe (M36-M60).
 
-## 9. Réalisme d'Exécution : L'Architecture AI-Native qui Permet l'Évolution
+## 9. Architecture Modulaire : Le Différenciateur Technique
 
-### 9.1. Pourquoi l'Architecture AI-Native Change Tout
+### 9.1. Pourquoi l'Architecture Plugin-Based Change Tout
 
-**Le piège des concurrents** :
-- **Pigment** : Architecture pensée pour le planning/budgeting. Pour faire de la conso, ils doivent créer des "starter kits" paramétrés → maintenance cauchemardesque, impossible d'évoluer proprement.
-- **Tagetik/OneStream/HFM** : Architecture monolithique legacy avec SQL/Python exposé. Pour ajouter l'IA, ils doivent refondre → années de R&D, risque de casser l'existant. L'utilisateur doit écrire du code, pas no-code.
+**Le piège concurrent** :
+- **Pigment** : Flexibilité totale, mais apps = templates copiés → Migration manuelle à chaque évolution, maintenance exponentielle
+- **Tagetik** : Modules natifs rigides, forms/rules copiées dans chaque instance → Migration manuelle 2-3h/client, impossible d'étendre
 
-**L'avantage Performance OS** : Architecture AI-Native pensée dès le départ avec des choix de conception qui permettent l'activation progressive de fonctionnalités natives :
+**L'avantage Performance OS** : Architecture en 3 couches pensée pour l'évolutivité
 
-#### 9.0. Le Moteur de Règles Moderne (No-Code)
+**Couche 1 : Core Platform (SDK + Rich UI Components Library)**
+- Moteur universel (Rules Engine, Universal Ledger) + APIs stables + UI Components (generics + accounting specialized comme DebitCreditGrid, BalanceSheetLayout)
+- Progressive Web App responsive (desktop config/analyse, mobile dashboards/saisie)
+- **Modules natifs construits AVEC LE SDK PUBLIC** (comme partenaires le feront) → garantit extensibilité
 
-**Principe fondamental** : Performance OS utilise un **moteur de règles moderne** (type Anaplan) où l'utilisateur travaille avec :
-- **Formules** (comme Excel) : `Sales_2024 = Sales_2023 * (1 + Growth_Rate)`
-- **Dimensions** (comme Pigment) : Ajout/modification de dimensions (Produit, Région, Client) à la volée
-- **Mappings** (no-code) : Mapping visuel entre plans de comptes, référentiels, axes
-- **Règles métier** (no-code) : Éliminations intercos, conversions, retraitements via interface graphique
+**Couche 2 : Modules Natifs + Plugins + Apps**
+- **Modules natifs** (Performance OS) : Code versionné (pas copié) → Auto-upgrade 30s, config client préservée
+- **Plugins** (partenaires) : Extensions de modules natifs (ex: IFRS 16 Advanced, ML Forecasting) → Revenue share 60/40
+- **Apps** (partenaires) : Solutions complètes niches (ex: ESG Reporting, Retail Analytics, Manufacturing Cost) → Revenue share 70/30
 
-**L'IA t'aide à créer ces règles** :
-- "Crée-moi une règle d'élimination pour les ventes intercos entre Filiale A et B" → L'IA génère la règle no-code, tu valides.
-- "Mappe automatiquement ces 50 comptes vers le plan groupe" → L'IA propose les mappings, tu ajustes si besoin.
+**Couche 3 : UX Persona Adaptive**
+- Même data, UX différente par rôle + device (Sales Ops desktop, Sales Rep mobile, CFO hybrid)
 
-**Sous le capot** : Le moteur de règles est compilé en calculs déterministes (oui, techniquement c'est du SQL optimisé), mais l'utilisateur ne le voit **jamais**. C'est transparent, comme Anaplan ou Pigment.
+**Garde-fous critiques** :
+1. **Séparation stricte code vs config** : API boundary, impossible d'écraser config client
+2. **Tests de non-régression automatiques** : Shadow calculation, blocage si écart > 0.01€
+3. **Sandbox obligatoire** : Clients critiques testent avant prod
+4. **Versioning sémantique** : MAJOR.MINOR.PATCH, breaking changes visibles, rollback auto
+5. **Compatibilité garantie marketplace** : Namespacing, tests auto, certification, matrice de compatibilité
 
-#### 9.1.1. Le Universal Ledger Extensible
-- **Conception** : Stockage granulaire orienté colonnes (DuckDB) avec schéma évolutif sans migration.
-- **Permet** : Ajouter de nouvelles dimensions (Projet, Produit, Client) sans casser les règles existantes.
-- **Impact** : Un client Data Prep peut activer la conso sans reprise de données.
+### 9.2. Roadmap MVP → Modules Natifs → SDK Marketplace
 
-#### 9.1.2. L'IA dans le Moteur, Pas à Côté
-- **Conception** : L'IA génère des règles métier via l'interface no-code (formules, mappings, dimensions), pas des "suggestions flottantes". Le moteur de règles est moderne (type Anaplan), pas du SQL/Python exposé.
-- **Permet** : Activer des features complexes (éliminations intercos, conversions de devises) en mode IA-Assisted sans compromettre le déterminisme.
-- **Impact** : L'IA reste utile même quand le client monte en maturité, toujours via l'interface no-code.
+- **M0-M6 (MVP Phase 1)** : Moteur universel + Module Sales Commission (natif) + UX Sales Ops/Manager/Rep
+- **M6-M12 (Extension Phase 1)** : Modules Sales Contests, Sales Forecasting
+- **M12-M18 (Phase 2)** : Module Budget Planning + UX CFO/Contrôleur/DAF
+- **M18-M24 (Phase 3 + SDK Beta)** : Module Consolidation + SDK ouvert (5-10 partenaires pilotes) + 1er plugin (ESG Reporting)
+- **M24+ (Marketplace Publique)** : 10+ plugins certifiés, 20+ apps sectorielles, ARR marketplace 1-2M€
 
-#### 9.1.3. Architecture Multi-Persona par Design
-- **Conception** : Séparation claire entre la couche données (Universal Ledger) et les couches UX persona.
-- **Permet** : Activer l'UX Consolideur, puis CG, puis DAF progressivement, sans toucher au moteur.
-- **Impact** : Un même client peut commencer "Data Prep" et finir "Full EPM" sans changement de plateforme.
-
-### 9.2. La Stratégie "Features Natives, Pas Starter Kits"
-
-**Le choix fondateur** : Développer les fonctionnalités consolidation comme des **features produit natives**, pas comme des "templates paramétrables".
-
-| **Approche** | **Pigment (Starter Kit)** | **Performance OS (Features Natives)** |
-|--------------|---------------------------|-----------------------------------|
-| **Développement** | Paramétrage client par client | Feature développée 1 fois |
-| **Maintenance** | Multiplicité des versions | Version unique, évolutive |
-| **Time-to-Value** | Weeks (personnalisation) | Minutes (activation) |
-| **Évolution produit** | Migration manuelle par client | Auto-upgrade pour tous |
-| **Scalabilité** | Complexité exponentielle | Linéaire |
-
-**Exemples concrets de features natives** :
-- **Éliminations intercos** : Module natif avec détection asymétries, proposition d'écritures IFRS, versioning.
-- **Gestion de périmètre** : Module natif avec acquisitions/cessions, pourcentages d'intégration, historique.
-- **Conversions de devises** : Module natif avec multi-taux (clôture, moyenne, historique), import automatique BCE/Reuters.
-
-### 9.3. Réalisme de l'Exécution avec Agents IA
-
-L'hypothèse "MVP codé avec des agents IA" est réaliste **si** l'architecture est pensée pour l'évolution progressive.
-
-#### 9.3.1. Ce que les agents IA accélèrent
-- Scaffolding des features natives (éliminations, périmètre, conversions) avec tests de non-régression.
-- Génération des UX persona (Consolideur, CG, DAF) avec composants réutilisables.
-- Documentation automatique des choix d'architecture et des patterns de code.
-
-#### 9.3.2. Ce qui reste "non-négociable"
-- **Choix d'architecture** : Universal Ledger extensible, séparation données/UX, IA dans le moteur.
-- **Déterminisme** : Les features natives doivent produire des résultats reproductibles au centime près.
-- **Modularité** : Les features doivent pouvoir s'activer/désactiver sans casser le reste.
-
-#### 9.3.3. Roadmap MVP → Features Natives (6-18 mois)
-- **M0-M3 (MVP)** : Data Prep + Reporting + Universal Ledger de base.
-- **M3-M6** : Activation UX Persona (Consolideur, CG, DAF) sur le Ledger existant.
-- **M6-M12** : Développement features conso natives (éliminations, périmètre, conversions).
-- **M12-M18** : Activation features avancées (états IFRS, annexes, tableaux de flux).
-
-**La clé** : À chaque étape, on ne refait pas, on **étend**. C'est la beauté de l'architecture AI-Native.
 
 ## 10. Scope Produit (MVP) & Non-goals
 
@@ -838,18 +726,41 @@ L'intégrateur crée des **packages sectoriels/fonctionnels** qu'il monétise à
 
 **Objectif Phase 3** : 20 packages actifs, 10 intégrateurs Marketplace Creators, ARR marketplace 500k€ (dont 350k€ pour les partenaires).
 
-## 17. Comparative TCO (vs Legacy Tagetik/SAP BFC)
+## 16bis. Marketplace de Modules : L'Écosystème Extensible
 
-| Critère | **Performance OS** | **Tagetik/SAP BFC** |
-|---------|----------------|---------------------|
-| **Coût initial** | 20-30k€ (POC 6 sem.) | 150-300k€ (projet 9-12 mois) |
-| **Coût annuel** | 36-60k€ (selon taille) | 150-250k€ (licences + maintenance) |
-| **Temps de clôture** | 1.5-3 jours (objectif) | 8-12 jours (moyenne marché) |
-| **Jours de conseil** | 20-40j (gouvernance) | 100-200j (paramétrage + évolutions) |
-| **Coûts d'évolution** | Inclus (IA auto-adaptation) | 10-30k€/évolution majeure |
-| **Time-to-Value** | 6 semaines | 9-12 mois |
+### Vision : De Produit à Plateforme
 
-**ROI estimé** : Retour sur investissement en 6-12 mois grâce à la réduction du temps de clôture et de la dépendance conseil.
+**3 Tiers marketplace** :
+- **Modules Natifs** (Performance OS) : Sales Comm, Budget, Conso → Use cases core standardisés
+- **Plugins** (Partenaires) : Extensions de modules natifs (ex: IFRS 16 Advanced, ML Forecasting) → Revenue share 60/40
+- **Apps** (Partenaires) : Solutions complètes niches (ex: ESG Reporting, Retail Analytics, Manufacturing Cost) → Revenue share 70/30
+
+**Architecture SDK** : Partenaires accèdent aux mêmes APIs/UI Components que modules natifs (Core Platform modulaire dès M0).
+
+**Certification marketplace** : Tests compatibilité automatiques, code review, badge "Certified Compatible", matrice de compatibilité.
+
+**Roadmap** :
+- **M18-M24** : SDK Beta + 1er plugin pilote (ESG Reporting), 3 modules certifiés, 50k€ ARR marketplace
+- **M24-M36** : 10 plugins/apps certifiés (IFRS, Retail, SaaS Metrics), 5 ISVs partenaires, 300k€ ARR marketplace
+- **M36-M48** : 30+ modules actifs, effet réseau, ARR marketplace 1-2M€ (20-30% ARR total)
+
+**Impact stratégique** : Barrière à l'entrée croissante, scalabilité sans R&D interne, switching cost élevé, écosystème défensif.
+
+## 17. Comparative TCO (vs Concurrents)
+
+| Critère | **Performance OS** | **Pigment/Anaplan** | **Vulki/Tagetik** |
+|---------|----------------|---------------------|-------------------|
+| **Architecture** | 3 Couches (Moteur + Modules + UX) | Moteur flexible seul | Modules rigides |
+| **Coût initial** | 20-30k€ (POC 6 sem.) | 30-50k€ (setup 2-3 mois) | 150-300k€ (projet 9-12 mois) |
+| **Coût annuel** | 36-60k€ (selon taille) | 40-80k€ | 150-250k€ (licences + maintenance) |
+| **Time-to-Value** | 2 semaines (modules natifs) | 2-3 mois (build tout) | 9-12 mois |
+| **Jours de conseil** | 10-20j (activation modules) | 30-60j (construction) | 100-200j (paramétrage) |
+| **Extensibilité** | ⭐⭐⭐⭐⭐ (Formules + SDK) | ⭐⭐⭐⭐ (Formules) | ⭐ (Workarounds) |
+| **Modules métier** | ✅ Natifs évolutifs (plugin) | ❌ À construire | ✅ Natifs rigides |
+| **Upgrade modules** | ✅ Auto + custom préservé | ⚠️ Migration manuelle | ✅ Auto mais rigide |
+| **IA** | ✅ Intégrée au moteur | ⚠️ Chatbot gadget | ❌ Absente |
+
+**ROI estimé** : Retour sur investissement en 3-6 mois grâce au time-to-value accéléré (modules natifs) + flexibilité (pas de dépendance conseil) + extensibilité (SDK).
 
 ## 18. Orientations Futures & Roadmap
 
