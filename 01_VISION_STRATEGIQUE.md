@@ -18,7 +18,7 @@ Performance OS est la **plateforme EPM AI-Native de dernière génération** qui
 **Insight clé** : Sales Performance Management = EPM simplifié. Même architecture (saisie → règles → calcul → reporting), juste des use cases différents.
 
 **Phase 1 (M0-M12)** : Sales Performance Management (Architecture EPM Universelle)
-- **Architecture** : Moteur de calcul universel + base multidim scalable + Data Prep visuel dès M0
+- **Architecture** : Moteur de calcul universel + base multidim scalable + ingestion intelligente (connecteurs CRM/ERP)
 - **Use Case** : Commissions, incentives, contests, simulations (ringardiser Vulki/Xactly/Spiff)
 - **Différenciateur clé** : Pas une UX rigide "Vulki-like", mais un moteur flexible (type Pigment/Anaplan) avec modules natifs Sales
 - Entry point facile, marché validé, pas de conflit Alteryx
@@ -31,7 +31,7 @@ Performance OS est la **plateforme EPM AI-Native de dernière génération** qui
 **Phase 3 (M24-M36)** : EPM Complet (Consolidation + Marketplace de Modules)
 - **Activation de modules natifs** : Consolidation IFRS, Intercompany Management, Currency Translation
 - **Ouverture SDK (M18-M24)** : Partenaires créent modules sectoriels/compliance (ESG, Pilier 2, Cost Accounting)
-- **Extension capacités transformation** : Workflows de transformation avancés pour use cases Finance complexes (réconciliations, retraitements IFRS)
+- **Extension capacités transformation** : Workflows visuels de transformation pour use cases Finance complexes (réconciliations multi-sources, retraitements IFRS, mappings ETL)
 - **Résultat** : L'EPM AI-Native Universel (Sales + Finance + Écosystème de modules partenaires)
 
 ### La différence avec les concurrents
@@ -79,7 +79,7 @@ Architecture conçue pour l'élargissement progressif :
 - ❌ **Pigment/Anaplan** : Excellent pour Finance, mais inadapté au Sales Perf (pas de gestion de commissions natives)
 - ✅ **Performance OS** : Plateforme unique AI-Native qui démarre sur Sales Perf, puis élargit vers Finance
 
-**Gain** : Architecture universelle permettant de remplacer progressivement 3-4 outils (Vulki + Pigment + Alteryx + BI).
+**Gain** : Architecture universelle permettant de remplacer progressivement 3 outils (Vulki + Pigment + BI).
 
 ## 2. Les Trois Piliers Fondateurs
 
@@ -201,9 +201,12 @@ Performance OS est conçu pour s'insérer dans le réel des entreprises : **lega
 **Phase 1 (Sales Performance)** : Connecteurs CRM intelligents (Salesforce, HubSpot) + Mapping IA-Assisted
 - Détection automatique structure, mapping "Product → Commission Plan" en 30s (vs 2h manuelles)
 - Contrôles cohérence automatiques (duplicates, écarts, réconciliation)
+- Ingestion via connecteurs natifs (pas de workflows visuels complexes)
 
-**Phase 2-3 (Finance EPM)** : Workflows de transformation pour use cases avancés (réconciliations multi-sources, retraitements IFRS)
-- Optimisé Performance Management (pas ETL généraliste), IA-Assisted pour génération
+**Phase 2-3 (Finance EPM)** : Workflows de transformation visuels pour use cases avancés
+- Réconciliations multi-sources, retraitements IFRS, mappings ETL complexes
+- Interface visuelle de type "Data Prep" optimisée Performance Management (pas ETL généraliste)
+- IA-Assisted pour génération de workflows
 
 **Principe Build vs Run** : IA aide configuration initiale (1×), puis exécution déterministe sans IA (coûts maîtrisés).
 
@@ -228,22 +231,30 @@ Performance OS est conçu pour s'insérer dans le réel des entreprises : **lega
 - Droite : Proposition IA temps réel (valider/ajuster/rejeter)
 - Résultat : 100% contrôle, IA génère 80% du travail
 
+**5. Collaboration Temps Réel (Google Sheets-like)**
+- Édition collaborative multi-users (présence live, curseurs colorés)
+- Workflows de validation (commentaires, approbation, escalation)
+- Notifications multi-canaux (Teams, Slack, Email) avec deep links
+- Historique complet avec rollback granulaire
+
 ### C. Souveraineté & Confiance
 
 Souveraineté et confiance sont assurées par le **Zero-Knowledge Audit** et la liberté de choix technologique.
-- **Choix du Provider** : Comme pour un hyperscaler, le client choisit son modèle (Mistral AI, OpenAI souverain, etc.) au début de l'implémentation selon ses besoins de conformité. Ce choix est unique pour l'instance client.
-- **Isolation client** : Aucune mutualisation, aucun apprentissage croisé.
-- **Transparence des règles** : Toutes les règles métier (formules, mappings, transformations) sont auditables et exportables. Sous le capot, le moteur de règles garantit le déterminisme sans exposer de complexité technique à l'utilisateur.
-- **Contrôle & conformité** : RBAC/SoD, logs, DR, droit d'audit.
+- **Choix Hyperscaler** : AWS, Azure, Google Cloud (selon préférences client, tous conformes RGPD)
+- **Choix Provider IA** : Mistral AI (souverain UE), OpenAI (via Azure UE), Gemini (via Google Cloud), Claude (via AWS) — Choix client selon besoins conformité
+- **Combos naturels** : Google Cloud + Gemini, Azure + OpenAI, AWS + Claude
+- **Isolation client** : Aucune mutualisation, aucun apprentissage croisé
+- **Transparence des règles** : Toutes les règles métier (formules, mappings, transformations) sont auditables et exportables
+- **Contrôle & conformité** : RBAC/SoD, logs, DR, droit d'audit
 
-*(Détails : sections 6, 11 et 13.)*
+*(Détails : sections 6 et document technique)*
 
 ## 3. Positionnement Marché (Stratégie Progressive)
 
 **Phase 1 (M0-M12) : Sales Performance Management (Architecture EPM Universelle)**
 - **Cible :** Entreprises 50M€-500M€ CA avec équipes sales 10-100 personnes, souffrant de litiges commissions et manque de transparence.
-- **Architecture dès M0** : Moteur de calcul universel (type Pigment) + base multidim scalable + Data Prep visuel + IA intégrée.
-- **Différenciateur :** On n'est PAS "Vulki avec de l'IA". On est "Pigment + Alteryx + IA appliqué au Sales Perf, puis Finance, puis Conso".
+- **Architecture dès M0** : Moteur de calcul universel (type Pigment) + base multidim scalable + ingestion intelligente + IA intégrée.
+- **Différenciateur :** On n'est PAS "Vulki avec de l'IA". On est "Pigment moderne avec modules natifs évolutifs + IA au cœur, appliqué au Sales Perf, puis Finance, puis Conso".
 - **Modules Phase 1** : Sales Commission (natif), Sales Contests, Sales Forecasting — déployables en 2 semaines avec extensibilité totale.
 - **Entry point facile** : Pas de conflit avec Alteryx (marché différent), crédibilité extension Finance (architecture le permet).
 
@@ -251,9 +262,9 @@ Souveraineté et confiance sont assurées par le **Zero-Knowledge Audit** et la 
 - **Cible :** Mêmes clients + élargissement vers PME finance-first cherchant à moderniser budgets/forecasts.
 - **Cross-sell naturel** : Clients Sales Perf ont aussi besoin de planning finance.
 
-**Phase 3 (M24-M36) : EPM Complet (Consolidation + Data Prep)**
+**Phase 3 (M24-M36) : EPM Complet (Consolidation + Transformation Avancée)**
 - **Cible :** Groupes multi-entités 100M€-1Md€ CA cherchant à remplacer Tagetik/HFM legacy.
-- **Différenciateur final** : L'agilité d'un outil moderne (type Pigment) + rigueur consolidation (type Tagetik) + Data Prep visuel (type Alteryx).
+- **Différenciateur final** : L'agilité d'un outil moderne (type Pigment) + rigueur consolidation (type Tagetik) + workflows de transformation intelligents.
 
 ## 4. Personas cibles (Phase 1 : Sales Performance)
 
@@ -340,37 +351,22 @@ Une fois en production, le système continue d'apprendre et de proposer des opti
 
 **Principe fondamental :** L'IA ne modifie jamais rien sans validation humaine. Chaque évolution passe par une proposition formelle et une validation explicite par Sales Ops/Finance.
 
-## 6. Éthique et Sécurité des Données (Compliance+)
+## 6. Sécurité, Souveraineté & Conformité
 
-Les équipes Sales, Finance et HR manipulent des données hautement sensibles (commissions personnelles, rémunérations, deals confidentiels, performance individuelle). Performance OS traite la **souveraineté**, la **confidentialité** et la **preuve** comme des exigences de base.
+Les équipes Sales, Finance et HR manipulent des données hautement sensibles. Performance OS traite la **souveraineté**, la **confidentialité** et la **preuve** comme des exigences de base.
 
-#### 6.1. Instance dédiée par client
+**Principes fondamentaux** :
+- **Instance dédiée par client** : Environnement totalement isolé (données, clés, réseau). L'IA du client A n'accède JAMAIS aux données du client B.
+- **Pas d'apprentissage croisé** : Aucun entraînement mutualisé, aucun transfert de données entre clients.
+- **Flexibilité technologique** : Choix hyperscaler (AWS, Azure, Google Cloud) + choix LLM (Mistral AI souverain, OpenAI, Gemini, Claude) selon besoins conformité.
+- **Souveraineté IA** : La vraie souveraineté est le contrôle du modèle IA (Mistral AI pour souveraineté maximale UE), pas l'hyperscaler.
+- **Contrôle total sur l'IA** : Opt-in/opt-out par module, transparence des règles, validation humaine obligatoire.
+- **Audit & certification** : Objectif ISO 27001 / SOC 2 Type II, registre d'audit exploitable, droit d'audit.
+- **RGPD & PII** : Anonymisation automatique des données personnelles à la source (hash unidirectionnel), conformité garantie.
 
-Chaque client dispose d’un environnement isolé (données, modèles, réseau), avec politiques d’accès et journaux séparés.
+**Résultat** : Un niveau de confiance et de sécurité supérieur aux solutions EPM traditionnelles, avec la puissance de l'IA sans compromis sur la souveraineté.
 
-**Principe absolu :** L'IA du client A n'accède JAMAIS aux données du client B, et n'apprend JAMAIS rien des données du client B.
-
-#### 6.2. Pas d'apprentissage croisé entre clients
-
-Garanties contractuelles : pas de transfert, pas d’entraînement mutualisé, pas de réutilisation de corpus client hors périmètre.
-
-#### 6.3. Souveraineté technologique européenne
-
-LLM européens (Mistral AI) et hébergement souverain UE, avec conformité RGPD by design.
-
-#### 6.4. Contrôle total sur l'utilisation de l'IA
-
-Opt-in IA, possibilité de désactivation, transparence des règles/validations. Aucun changement métier sans validation humaine.
-
-#### 6.5. Audit et certification
-
-Objectif : ISO 27001 / SOC 2 Type II, registre d'audit exploitable, droit d'audit.
-
-#### 6.6. RGPD & PII (Anonymisation à la source)
-
-L'UDI détecte automatiquement les données personnelles (noms, emails, salaires nominatifs) et les anonymise avant ingestion dans le Lakehouse. Seul le hash de référence est conservé pour la traçabilité. Les liasses sociales sont traitées en conformité RGPD sans stockage de PII.
-
-**Résultat :** Un niveau de confiance et de sécurité supérieur aux solutions EPM traditionnelles, avec la puissance de l'IA sans compromis sur la souveraineté et le secret professionnel.
+> 📘 **Détails techniques** : Voir [02_ARCHITECTURE_TECHNIQUE.md](02_ARCHITECTURE_TECHNIQUE.md) pour les spécifications complètes (déploiement, sécurité, gouvernance IA, pricing détaillé).
 
 ## 7. Profil du fondateur & Co-fondateur
 
@@ -413,7 +409,7 @@ Performance OS ne tombe pas dans le piège des solutions point-to-point (Vulki p
 **Architecture Foundation (dès M0)** :
 - **Moteur de calcul universel** : Formules no-code (type Excel), dimensions à la volée, mappings visuels
 - **Universal Ledger** : Base multidim scalable (DuckDB), schéma évolutif sans migration
-- **Ingestion intelligente** : Connecteurs CRM/ERP + mapping IA-assisted (Phase 1), workflows de transformation avancés (Phase 2-3)
+- **Ingestion intelligente** : Connecteurs CRM/ERP natifs + mapping IA-assisted (Phase 1), extension vers workflows visuels de transformation (Phase 2-3)
 - **IA intégrée au moteur** : Génération de règles no-code (Build, pas Run)
 
 **Module Natif "Sales Commission" (Phase 1)** :
@@ -423,7 +419,7 @@ Performance OS ne tombe pas dans le piège des solutions point-to-point (Vulki p
 - **Dashboards pré-configurés** : Sales Ops, Manager, Sales Rep (mobile-first)
 - **+ Extensibilité** : Ajout de règles custom via formules no-code (bonus spéciaux, contests)
 
-**Promesse** : "Un moteur EPM moderne (type Pigment/Anaplan) + module Sales Comm natif (type Vulki) + IA intégrée + ingestion intelligente. Déployez en 2 semaines, étendez vers Finance sans migration. Architecture plugin-based : modules évolutifs SANS perte de customisation."
+**Promesse** : "Un moteur EPM moderne (type Pigment/Anaplan) + module Sales Comm natif (type Vulki) + IA intégrée. Déployez en 2 semaines, étendez vers Finance puis Consolidation sans migration. Architecture plugin-based : modules évolutifs SANS perte de customisation."
 
 #### 8.1.3. Stratégie d'acquisition (Sales Performance)
 - **Inbound** : Contenu "J'ai supprimé 80% des litiges commissions", calculateur ROI Sales Perf.
@@ -460,7 +456,7 @@ Performance OS ne tombe pas dans le piège des solutions point-to-point (Vulki p
 **Le différenciateur ultime** : Performance OS active des **fonctionnalités consolidation natives évolutives** (architecture plugin-based), pas des starter kits paramétrés.
 
 #### 8.3.1. Activation des fonctionnalités EPM Complet (natives)
-- **Workflows de transformation avancés** : Pour use cases Finance complexes (réconciliations multi-sources, retraitements IFRS).
+- **Workflows de transformation visuels** : Pour use cases Finance complexes (réconciliations multi-sources, retraitements IFRS, mappings ETL avancés).
 - **Éliminations intercos automatiques** : Détection asymétries, proposition d'écritures IFRS-compliant.
 - **Gestion de périmètre intelligente** : Acquisitions, cessions, pourcentages d'intégration avec suivi historique.
 - **Conversions de devises multi-taux** : Import automatique des taux BCE/Reuters, application selon normes IFRS.
@@ -494,9 +490,55 @@ Performance OS ne tombe pas dans le piège des solutions point-to-point (Vulki p
 
 **KPI Phase 4** : 200+ clients, ARR 15-25M€, leader Performance Management AI-Native Europe (M36-M60).
 
-## 9. Architecture Modulaire : Le Différenciateur Technique
+## 9. Collaboration Temps Réel & Workflows
 
-### 9.1. Pourquoi l'Architecture Plugin-Based Change Tout
+### 9.1. Édition Collaborative (Google Sheets-like)
+
+**Le problème des outils legacy** :
+- Tagetik/Vulki : Édition séquentielle (locks pessimistes), pas de visibilité sur qui fait quoi
+- Excel : Fichiers partagés en lecture seule, conflits de versions, pas de workflow
+
+**L'approche Performance OS** :
+- **Présence temps réel** : Voir qui est connecté, où travaillent les autres users (curseurs colorés par user)
+- **Édition simultanée** : Plusieurs users peuvent modifier des cellules/règles différentes en même temps (locks granulaires par cellule)
+- **Synchronisation instantanée** : Modifications visibles en temps réel (< 500ms) pour tous les users
+- **Conflict Resolution** : Si 2 users modifient la même cellule, résolution automatique (last-write-wins) avec notification des deux users
+
+### 9.2. Workflows de Validation & Approbation
+
+**Workflow natif paramétrable** :
+- **Étapes configurables** : Préparateur → Reviewer → Approbateur → Validateur final (paramétrable par client)
+- **Commentaires & Annotations** : Commentaires sur cellules/règles/dashboards (à la Google Docs) avec @mentions
+- **Approval multi-niveaux** : Manager → Finance → DSI selon criticité (ex: nouvelle règle de commission > 10k€/mois)
+- **Escalation automatique** : Si pas de réponse sous X heures, escalade au N+1 (paramétrable)
+- **Audit trail** : Qui a commenté/approuvé quoi, quand, pourquoi (justification textuelle obligatoire pour approbations)
+
+### 9.3. Notifications Multi-Canaux
+
+**Intégrations natives** :
+- **Teams** : Notifications dans canal dédié avec deep link vers Performance OS (ex: "Nouvelle règle à valider")
+- **Slack** : Idem Teams, avec boutons d'action (Approve/Reject direct depuis Slack)
+- **Email** : Digest quotidien + notifications urgentes (ex: anomalie détectée, validation requise)
+- **In-App** : Notifications dans Performance OS (badge, toast, inbox dédiée)
+
+**Personnalisation** :
+- Choix du canal par type d'événement (ex: anomalies → Teams, validations → Email)
+- Fréquence configurable (temps réel, digest horaire, digest quotidien)
+- Filtre par criticité (urgent, normal, info)
+
+### 9.4. Historique & Rollback Granulaire
+
+**Version Control à la Git** :
+- Chaque modification est un commit (user, timestamp, justification)
+- Diff visuel entre versions (avant/après, lignes modifiées surlignées)
+- Rollback granulaire : Revenir à une version spécifique (par règle, par dashboard, ou global)
+- Branches/Scenarios : Tester des modifications en sandbox avant merge en prod
+
+---
+
+## 10. Architecture Modulaire : Le Différenciateur Technique
+
+### 10.1. Pourquoi l'Architecture Plugin-Based Change Tout
 
 **Le piège concurrent** :
 - **Pigment** : Flexibilité totale, mais apps = templates copiés → Migration manuelle à chaque évolution, maintenance exponentielle
@@ -524,7 +566,7 @@ Performance OS ne tombe pas dans le piège des solutions point-to-point (Vulki p
 4. **Versioning sémantique** : MAJOR.MINOR.PATCH, breaking changes visibles, rollback auto
 5. **Compatibilité garantie marketplace** : Namespacing, tests auto, certification, matrice de compatibilité
 
-### 9.2. Roadmap MVP → Modules Natifs → SDK Marketplace
+### 10.2. Roadmap MVP → Modules Natifs → SDK Marketplace
 
 - **M0-M6 (MVP Phase 1)** : Moteur universel + Module Sales Commission (natif) + UX Sales Ops/Manager/Rep
 - **M6-M12 (Extension Phase 1)** : Modules Sales Contests, Sales Forecasting
@@ -535,146 +577,84 @@ Performance OS ne tombe pas dans le piège des solutions point-to-point (Vulki p
 
 ## 10. Scope Produit (MVP) & Non-goals
 
-Performance OS est volontairement construit **par paliers** pour éviter l’effet “EPM total” et maximiser la vitesse de preuve.
+Performance OS est volontairement construit **par paliers** pour éviter l'effet "EPM total" et maximiser la vitesse de preuve.
 
-### 10.1. Scope MVP (V1)
-- Ingestion multi-sources (Excel/CSV/exports ERP) + UDI sous contrôle (mapping assisté + complétude).
-- Data Prep no-code finance : règles déterministes, versioning, exceptions, lineage.
-- Reporting standard prêt-à-l’emploi (pilotage) + exports BI.
-- Sécurité minimale entreprise : isolation client, contrôle d’accès, journaux, chiffrement.
+**Scope MVP (V1)** :
+- Ingestion multi-sources (Excel/CSV/exports ERP) + mapping IA-assisted
+- Règles de calcul no-code (formules, dimensions, workflows)
+- Reporting standard prêt-à-l'emploi + exports BI
+- Sécurité entreprise : isolation client, contrôle d'accès, audit trail
 
-### 10.2. Non-goals (au MVP)
-- Remplacement ERP, refonte P2P/O2C, ou “réconciliation bancaire” complète.
-- Consolidation statutaire IFRS complète “day-1” (périmètre complexe, annexes, CAC-ready) : extension ultérieure.
-- “Auto-posting” d’écritures sans validation humaine : interdit par design.
-- Personnalisation infinie sans gouvernance (règles non versionnées / non auditées) : exclue.
+**Non-goals (au MVP)** :
+- Remplacement ERP ou "auto-posting" sans validation humaine (interdit by design)
+- Consolidation statutaire IFRS complète "day-1" (extension Phase 3)
+- Personnalisation infinie sans gouvernance (règles toujours versionnées et auditées)
 
-## 11. Modèles de Déploiement & Exploitabilité (DSI-ready)
+---
 
-Performance OS est conçu pour s’intégrer au SI réel des entreprises, sans compromis sur la souveraineté.
+## 12. Écosystème & Marketplace : De Produit à Plateforme
 
-### 11.1. Options de déploiement
-- **Cloud souverain** (Europe) : option par défaut pour maximiser le time-to-value.
-- **On‑premise** : pour environnements contraints (données sensibles, exigences internes).
-- **Hybride** : ingestion locale + traitement/reporting dans un cloud souverain, selon politiques data.
 
-### 11.2. Prérequis d'exploitabilité (checklist DSI)
-- **SSO/SAML** et gestion des identités.
-- **RBAC + SoD** (séparation des tâches) : admin, préparateur, valideur, lecteur.
-- **Chiffrement** en transit et au repos + **KMS**.
-- **Journaux** d'accès et d'actions (technique + métier) exportables.
-- **DR/BCP** : objectifs **RPO/RTO** définis par client, procédures de reprise testées.
-- **Coûts maîtrisés** : limites de scaling, budgets, et métriques d'usage (compute/storage).
+Performance OS ne se limite pas aux modules natifs. La **Marketplace** permet à l'écosystème (intégrateurs, ISV, partenaires) de créer et monétiser de la valeur à l'échelle.
 
-### 11.3. Business Continuity & Mode Dégradé
+### 12.1. Les 3 Tiers de la Marketplace
 
-En cas d'indisponibilité de l'API LLM, Performance OS bascule automatiquement en **mode déterministe pur** : toutes les règles validées restent opérationnelles via le moteur de règles. Les nouvelles ingestions non mappées sont mises en file d'attente. L'admin est alerté et peut forcer un mapping manuel via l'interface no-code. **Aucun blocage de clôture** n'est possible à cause d'une panne IA.
+**Vision** : Transformer intégrateurs et ISV en **créateurs de valeur récurrente**, alignés avec le succès Performance OS.
 
-### 11.4. Interopérabilité ERP (Bi-directionnelle)
+#### **Tier 1 : Packages de Configuration** (Intégrateurs)
 
-Performance OS n'est pas une prison de données. L'Universal Ledger est exportable en temps réel vers l'ERP via API (SAP/Oracle/NetSuite) pour alimenter la comptabilité générale. Format : GAAP-compliant journal entries avec références traçables. Le DSI garde le contrôle du flux retour.
+**Nature** : Paramétrages sectoriels/fonctionnels pré-packagés (dimensions, règles, dashboards) créés via l'interface no-code.
 
-### 11.5. Data Retention & Archivage (10 ans+)
+**Exemples** :
+- **Sectoriels** : "Distribution Retail Pack" (axes magasin/région, marges, stock), "Industrie Manufacturière Pack" (coûts de revient, profitabilité usine)
+- **Fonctionnels** : "Budget Planning Pack" (workflows budgeting, simulations), "Intercos Advanced Pack" (détection asymétries, éliminations)
+- **Compliance** : "CSRD ESG Pack" (indicateurs ESG, reportings CSRD-ready), "Pilier 2 OCDE Pack" (calcul ETR, reportings fiscaux)
 
-Le Lakehouse intègre une politique d'archivage intelligent :
-- **Données chaudes** (N, N-1) : DuckDB en mémoire/SSD pour requêtes instantanées.
-- **Données tièdes** (N-2 à N-5) : Stockage objet compressé (Parquet) pour requêtes analytiques.
-- **Données froides** (> N-5) : Archivage S3 Glacier avec restauration sous 24h pour audit/compliance.
-- **Garantie** : Requêtes cross-période (ex: analyse 10 ans de marges) restent possibles avec performance acceptable (< 30s).
+**Monétisation** : 2-10k€ one-shot ou 200-500€/mois récurrent, revenue share 70/30 (intégrateur/Performance OS).
 
-## 12. Proof Points & Méthode de Mesure du ROI (preuve, pas promesse)
+**Avantage intégrateur** : Scalabilité digitale (vendre 1× à 50 clients = 250k€ ARR) vs modèle jours/homme one-shot.
 
-Performance OS est mesuré sur des indicateurs simples, reproductibles et auditables.
+#### **Tier 2 : Plugins** (ISV/Partenaires)
 
-- **Baseline** : mesure sur N-1 (ou période de référence) à périmètre constant.
-- **KPIs cœur** : temps de préparation, nombre d’itérations filiales↔corporate, taux d’exceptions, délai de correction, complétude (totaux), traçabilité (règles/validations), adoption (utilisateurs actifs).
-- **Méthode** : exécution en parallèle sur 1–2 cycles (ancien processus vs Performance OS) avec export du registre d’audit.
-- **Critère “CAC/DSI”** : capacité à produire un dossier de preuve (certificats d’intégrité, lineage, validations) sans travail manuel supplémentaire.
+**Nature** : Extensions logicielles (code) qui enrichissent les modules natifs, développées via SDK Performance OS.
 
-## 13. Gouvernance & Operating Model (RACI + Human-in-the-loop)
+**Exemples** :
+- **"IFRS 16 Advanced Plugin"** : Enrichit le module Consolidation avec retraitements IFRS 16 complexes (contrats variables, renégociations)
+- **"ML Forecasting Plugin"** : Enrichit le module Budget Planning avec prévisions machine learning (séries temporelles, scénarios probabilistes)
+- **"Advanced Currency Plugin"** : Enrichit le module Consolidation avec conversions multi-taux complexes (couvertures, dérivés)
 
-Performance OS est conçu pour être gouverné : l’IA assiste, l’humain décide.
+**Monétisation** : 500-2k€/mois par client, revenue share 60/40 (partenaire/Performance OS).
 
-- **Filiales** : fournissent les données (formats locaux), corrigent les exceptions de source, valident les mappings locaux si nécessaire.
-- **Corporate Finance (Consolideur/Contrôle)** : valide les règles groupe, arbitre les exceptions, valide les changements de référentiels, gèle les snapshots “as-of close”.
-- **DSI** : valide l’architecture (déploiement, accès, DR), supervise coûts et conformité, contrôle les comptes de service/support.
-- **Auditeurs** : consultent les preuves (règles, validations, certificats, logs) via exports dédiés.
+**Architecture** : Plugins utilisent les APIs publiques du Core Platform (Rules Engine, Universal Ledger, UI Components Library).
 
-**Escalade** : toute anomalie (complétude KO, incohérence, changement de règle) déclenche une alerte, un workflow de validation, et une trace immuable dans le registre d'audit.
+#### **Tier 3 : Apps** (ISV/Partenaires)
 
-## 14. Gouvernance des Agents IA & Versioning des Modèles
+**Nature** : Solutions complètes end-to-end pour use cases niches, développées via SDK Performance OS (data model + règles + UX custom).
 
-### 14.1. Qui décide des mises à jour IA ?
+**Exemples** :
+- **"ESG Reporting App"** : Collecte indicateurs ESG, calculs automatiques, reportings CSRD/GRI/SASB complets
+- **"Retail Analytics App"** : Analyse sell-out/sell-in, marges magasin, prévisions stock
+- **"Manufacturing Cost App"** : Calcul coûts de revient, suivi OEE, profitabilité ligne de production
 
-Les montées de version de modèles LLM (ex: Mistral v2 → v3) sont contrôlées par un processus strict :
-- **Proposition** : Performance OS notifie le client des nouvelles versions disponibles avec release notes métier.
-- **Régression Testing** : Avant toute mise à jour, le système rejoue automatiquement les 100 dernières règles validées sur la nouvelle version pour détecter les divergences.
-- **Validation DSI + Métier** : Si écart > 0,1%, la mise à jour est bloquée jusqu'à validation explicite conjointe DSI + Consolideur.
-- **Rollback garanti** : Possibilité de revenir à la version précédente sans perte de données (< 1h).
+**Monétisation** : 1-5k€/mois par client, revenue share 70/30 (partenaire/Performance OS).
 
-### 14.2. Versioning des règles métier par version de modèle
+**Architecture** : Apps peuvent partager dimensions/données avec modules natifs (ex: ESG App partage périmètre de consolidation).
 
-Chaque règle validée est taguée avec la version du modèle qui l'a générée. En cas de changement de modèle, les règles restent applicables mais sont marquées "à re-certifier" pour éviter les dérives silencieuses.
+### 12.2. Architecture SDK & Certification
 
-## 15. Pricing & Cost Model (Transparence économique)
+**SDK Performance OS** : API publique permettant aux partenaires de créer plugins/apps avec accès aux mêmes composants que les modules natifs :
+- **Rules Engine API** : Création de règles de calcul déterministes
+- **Universal Ledger API** : Lecture/écriture dans la base multidim (namespacing strict)
+- **UI Components Library** : Composants génériques (DataTable, Chart) + spécialisés (DebitCreditGrid, BalanceSheetLayout)
+- **Workflow API** : Création de workflows d'approbation, notifications, escalations
 
-Performance OS adopte un modèle de pricing transparent et prévisible :
+**Certification marketplace** : 
+- Tests de compatibilité automatiques (non-régression, performance, sécurité)
+- Code review par Performance OS (qualité, best practices, conformité API)
+- Badge "Certified Compatible" + matrice de compatibilité (versions supportées)
+- Updates obligatoires pour maintenir compatibilité (sinon dépublication)
 
-### 15.1. Structure tarifaire
-- **Socle de base** (€/mois) : Accès plateforme + Universal Ledger + stockage (jusqu'à 100 Go).
-- **Usage Data** (€/Go/mois) : Facturation au volume de données stockées au-delà du socle.
-- **Usage IA** (€/règle générée) : Facturation à la règle IA proposée (pas à la règle validée), avec plafond mensuel pour éviter les surprises.
-- **Users** : Forfait par tranche d'utilisateurs (1-10, 11-50, 51-200, 200+).
-
-### 15.2. Exemple de coût mensuel (groupe 20 entités, 50 users)
-- Socle : 2 000€/mois
-- Data (500 Go) : 400€/mois
-- IA (200 règles générées/mois) : 600€/mois
-- **Total** : ~3 000€/mois (36k€/an) vs 150k€/an pour une licence Tagetik équivalente.
-
-## 16. Partner Enablement & Marketplace : L'Écosystème qui Accélère le Go-to-Market
-
-L'intégrateur ne vend plus du paramétrage one-shot. Il devient **créateur de valeur récurrente** via la Marketplace Performance OS.
-
-### 16.1. Le Nouveau Modèle : Créer, Monétiser, Scaler
-
-**Le problème du modèle classique** :
-- L'intégrateur vend des jours/homme → intérêt décorrélé de Performance OS (il préfère les projets longs).
-- Le client paie 2 fois : licence Performance OS + jours de conseil intégrateur.
-- Pas de scalabilité : chaque nouveau client = tout refaire from scratch.
-
-**Le modèle Marketplace Performance OS** :
-L'intégrateur crée des **packages sectoriels/fonctionnels** qu'il monétise à l'échelle :
-
-#### 16.1.1. Types de packages monétisables
-
-**Packages Sectoriels** (configurations métier pré-packagées) :
-- **"Distribution Retail Pack"** : Plan de comptes retail, axes (magasin, région, catégorie), reportings standards (sell-out, marges, stock).
-- **"Industrie Manufacturière Pack"** : Axes (usine, ligne de production, produit), coûts de revient, marges industrielles.
-- **"Services B2B Pack"** : Axes (client, projet, consultant), profitabilité par projet, taux d'utilisation.
-
-**Packages Fonctionnels** (use cases spécialisés) :
-- **"IFRS 16 Leasing Pack"** : Règles de retraitement IFRS 16, états de rapprochement, annexes automatiques.
-- **"Intercos Advanced Pack"** : Détection asymétries complexes, multi-devises, éliminations partielles.
-- **"Budget Planning Pack"** : Workflows de budgeting, révisions, simulations what-if.
-
-**Packages Compliance** (normes/réglementations) :
-- **"CSRD ESG Reporting Pack"** : Collecte indicateurs ESG, reportings CSRD-ready, mappings GRI/SASB.
-- **"Pilier 2 OCDE Pack"** : Collecte données fiscales, calcul ETR, reportings conformes Pilier 2.
-
-#### 16.1.2. Modèle de revenus pour l'intégrateur
-
-**Vente sur la Marketplace** :
-- **Prix package** : 2-10k€ one-shot (selon complexité) ou 200-500€/mois en récurrent.
-- **Revenue share** : Performance OS prend 20-30%, l'intégrateur garde 70-80%.
-- **Volume** : Si 50 clients achètent le "Distribution Retail Pack" à 5k€ → 250k€ de revenus (175k€ pour l'intégrateur après revenue share).
-
-**Services complémentaires** :
-- **Customisation** : Adaptation du package au contexte client (5-10 jours/homme facturés en plus).
-- **Formation** : Formation des équipes finance sur le package (2-3 jours/homme).
-- **Support** : Support niveau 2 sur le package (forfait mensuel).
-
-### 16.2. L'Alignement d'Intérêts
+### 12.3. L'Alignement d'Intérêts
 
 | **Critère** | **Modèle Classique** | **Modèle Marketplace** |
 |-------------|---------------------|------------------------|
@@ -684,69 +664,49 @@ L'intégrateur crée des **packages sectoriels/fonctionnels** qu'il monétise à
 | **Scalabilité** | Limitée (humain) | Illimitée (digital) |
 | **Revenu intégrateur** | One-shot (100k€/projet) | Récurrent (50 ventes × 5k€ = 250k€) |
 
-### 16.3. Programme Partenaire à 3 Niveaux
+### 12.4. Programme Partenaire à 3 Niveaux
 
-**Niveau 1 : Certified Partner**
+**Niveau 1 : Certified Partner** (Intégrateurs)
 - **Prérequis** : Certification "Performance OS Expert" (5 jours).
-- **Droits** : Vendre des services de conseil et déploiement, accès à la documentation.
-- **Revenue share** : 0% (pas d'accès marketplace).
+- **Droits** : Conseil/déploiement, création de packages de configuration.
+- **Revenue share** : 70/30 sur packages (intégrateur/Performance OS).
 
-**Niveau 2 : Marketplace Creator**
-- **Prérequis** : Certified Partner + 3 clients déployés avec succès.
-- **Droits** : Publier des packages sur la Marketplace, revenue share 70/30.
-- **Support Performance OS** : Co-marketing, featured packages, support technique.
+**Niveau 2 : Marketplace Developer** (ISV)
+- **Prérequis** : Certified Partner + SDK training (10 jours).
+- **Droits** : Développer plugins/apps, publier sur marketplace, accès SDK beta.
+- **Revenue share** : 60/40 plugins, 70/30 apps (partenaire/Performance OS).
 
-**Niveau 3 : Strategic Partner**
-- **Prérequis** : Marketplace Creator + ARR généré > 100k€ via marketplace.
-- **Droits** : Revenue share amélioré (80/20), co-développement de features, accès early beta.
-- **Support Performance OS** : Équipe dédiée, événements partenaires, co-selling.
+**Niveau 3 : Strategic Partner** (ISV/Intégrateurs)
+- **Prérequis** : ARR généré > 100k€ via marketplace.
+- **Droits** : Revenue share amélioré (75/25), co-développement features, co-selling.
+- **Support Performance OS** : Équipe dédiée, événements partenaires, roadmap prioritaire.
 
-### 16.4. Mécanisme de Qualité & Certification
+### 12.5. Mécanisme de Qualité & Certification
 
 **Pour éviter la pollution de la marketplace** :
-- **Review process** : Chaque package est testé par Performance OS avant publication (conformité, qualité, documentation).
-- **Rating clients** : Les clients notent les packages (1-5 étoiles), commentaires publics.
-- **Updates obligatoires** : Les packages doivent être maintenus compatibles avec les évolutions Performance OS (sinon dépublication).
-- **Support niveau 1** : L'intégrateur s'engage à fournir un support niveau 1 sur ses packages.
+- **Review process** : Tests automatiques + code review pour plugins/apps, validation fonctionnelle pour packages.
+- **Rating clients** : Notation 1-5 étoiles, commentaires publics, KPIs d'adoption.
+- **Updates obligatoires** : Maintien compatibilité avec évolutions Performance OS (sinon dépublication après 6 mois).
+- **Support niveau 1** : Le partenaire s'engage à fournir support niveau 1 sur ses offres marketplace.
 
-### 16.5. Impact sur le Go-to-Market Performance OS
+### 12.6. Roadmap & Impact Stratégique
 
-**Accélération de l'adoption** :
-- Un client retail peut déployer en **2 semaines** avec le "Distribution Retail Pack" (vs 6 semaines from scratch).
-- Réduction de la friction commerciale : "Achetez le pack, testez, déployez".
+**Roadmap Marketplace** :
+- **M18-M24 (SDK Beta)** : 1er plugin pilote (ESG Reporting), 5 packages sectoriels, 3 partenaires pilotes, ARR marketplace 50k€
+- **M24-M36 (Marketplace Publique)** : 10 plugins/apps certifiés (IFRS, Retail, SaaS Metrics), 20 packages actifs, 10 partenaires, ARR marketplace 300k€
+- **M36-M48 (Effet Réseau)** : 30+ modules actifs (natifs + plugins + apps), 50+ packages, ARR marketplace 1-2M€ (20-30% ARR total)
 
-**Expansion géographique** :
-- Les intégrateurs locaux créent des packs conformes aux normes locales (ex: "Plan Comptable Général France", "UK GAAP Pack").
+**Impact Go-to-Market** :
+- **Time-to-Value accéléré** : Client retail déploie en 2 semaines avec "Distribution Retail Pack" (vs 6 semaines from scratch)
+- **Expansion géographique** : Partenaires locaux créent packages conformes (ex: "Plan Comptable Général France", "UK GAAP Pack")
+- **Extension sectorielle** : Performance OS n'a pas besoin de développer l'expertise métier, l'écosystème le fait
+- **Barrière à l'entrée croissante** : Plus de modules → Plus de valeur → Switching cost élevé → Écosystème défensif
 
-**Extension sectorielle** :
-- Performance OS n'a pas besoin de développer l'expertise sectorielle, l'écosystème le fait.
+**Cercle vertueux** : Plus d'offres marketplace → Plus de valeur client → Plus de partenaires attirés → Plus d'offres → Effet réseau.
 
-**Cercle vertueux** :
-- Plus de packages → Plus de valeur marketplace → Plus d'intégrateurs attirés → Plus de packages → Plus de clients.
+---
 
-**Objectif Phase 3** : 20 packages actifs, 10 intégrateurs Marketplace Creators, ARR marketplace 500k€ (dont 350k€ pour les partenaires).
-
-## 16bis. Marketplace de Modules : L'Écosystème Extensible
-
-### Vision : De Produit à Plateforme
-
-**3 Tiers marketplace** :
-- **Modules Natifs** (Performance OS) : Sales Comm, Budget, Conso → Use cases core standardisés
-- **Plugins** (Partenaires) : Extensions de modules natifs (ex: IFRS 16 Advanced, ML Forecasting) → Revenue share 60/40
-- **Apps** (Partenaires) : Solutions complètes niches (ex: ESG Reporting, Retail Analytics, Manufacturing Cost) → Revenue share 70/30
-
-**Architecture SDK** : Partenaires accèdent aux mêmes APIs/UI Components que modules natifs (Core Platform modulaire dès M0).
-
-**Certification marketplace** : Tests compatibilité automatiques, code review, badge "Certified Compatible", matrice de compatibilité.
-
-**Roadmap** :
-- **M18-M24** : SDK Beta + 1er plugin pilote (ESG Reporting), 3 modules certifiés, 50k€ ARR marketplace
-- **M24-M36** : 10 plugins/apps certifiés (IFRS, Retail, SaaS Metrics), 5 ISVs partenaires, 300k€ ARR marketplace
-- **M36-M48** : 30+ modules actifs, effet réseau, ARR marketplace 1-2M€ (20-30% ARR total)
-
-**Impact stratégique** : Barrière à l'entrée croissante, scalabilité sans R&D interne, switching cost élevé, écosystème défensif.
-
-## 17. Comparative TCO (vs Concurrents)
+## 13. Comparative TCO (vs Concurrents)
 
 | Critère | **Performance OS** | **Pigment/Anaplan** | **Vulki/Tagetik** |
 |---------|----------------|---------------------|-------------------|
@@ -762,7 +722,9 @@ L'intégrateur crée des **packages sectoriels/fonctionnels** qu'il monétise à
 
 **ROI estimé** : Retour sur investissement en 3-6 mois grâce au time-to-value accéléré (modules natifs) + flexibilité (pas de dépendance conseil) + extensibilité (SDK).
 
-## 18. Orientations Futures & Roadmap
+---
+
+## 14. Orientations Futures & Roadmap
 
 Performance OS continuera d'évoluer sur les axes suivants :
 - **Matrice de Migration Automatisée** : Développement de "Path to Cloud" automatisés pour faciliter la sortie des solutions legacy (SAP BFC, Tagetik) avec import des règles existantes.
@@ -770,7 +732,9 @@ Performance OS continuera d'évoluer sur les axes suivants :
 - **Consolidation Statutaire Avancée** : Extension vers les annexes IFRS complètes, tableaux de flux de trésorerie, et reporting ESG intégré.
 - **Marketplace de Règles Métier** : Bibliothèque partagée (anonymisée) de règles IFRS standards validées par la communauté Performance OS.
 
-## Annexes (exemples)
+---
+
+## 15. Annexes (Exemples d'Implémentation)
 
 - **Exemple A (filiale “locale”)** : une filiale avec des axes analytiques spécifiques conserve ses dimensions locales ; le Corporate reconcilie via mapping déterministe Local → Groupe, sans tuer la flexibilité.
 - **Exemple B (UDI PDF)** : une filiale ne peut fournir qu’un PDF ; Performance OS extrait, mappe, puis bloque si la réconciliation des totaux échoue (certificat d’intégrité).
